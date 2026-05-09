@@ -1,0 +1,29 @@
+{
+  "name": "playwright-automation-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "codegen": "playwright codegen",
+    "lint": "eslint .",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lety1585/Playwright-Automation-Demo.git"
+  },
+  "keywords": [],
+  "author": "Leticia Lenschen",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Lety1585/Playwright-Automation-Demo/issues"
+  },
+  "homepage": "https://github.com/Lety1585/Playwright-Automation-Demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "typescript": "^6.0.3"
+  }
+}
