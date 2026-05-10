@@ -1,7 +1,7 @@
 Playwright Starter (Public Page)
 
 What this is:
-- A minimal Playwright + TypeScript project to test a public health site (World Health Organization).
+- A Playwright + TypeScript project to test a public health site (World Health Organization).
 
 What you get:
 - A clean folder structure with a Page Object (HealthHomePage) and a simple test.
@@ -25,4 +25,3 @@ How to run (PowerShell on Windows):
 
 Notes:
 - The test navigates to the WHO homepage and asserts the title contains "World Health Organization" or "WHO".
-- You can extend tests with more Page Objects (e.g., HealthNewsPage) and add more scenarios as needed.
